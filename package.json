@@ -4,13 +4,14 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm build",
+    "clean": "rm -rf node_modules"
   },
   "author": "aaron.benson",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-dynamodb-local": "^0.2.19",
     "serverless-offline": "^5.10.1"
   }
 }
